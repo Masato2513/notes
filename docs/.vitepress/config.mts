@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/notes/",
   title: "艾门传说",
   description: "门的成神之路",
   themeConfig: {
