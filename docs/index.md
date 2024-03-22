@@ -3,15 +3,15 @@
 layout: home
 
 hero:
-  name: "机哥传说"
-  text: "单缸机的励志生涯"
+  name: "艾门传说"
+  text: "门的成神之路"
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 开启传奇之路
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 进入世界
       link: /api-examples
 
 features:
