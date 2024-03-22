@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "机哥传说",
-  description: "单缸机的励志生涯",
+  title: "艾门传说",
+  description: "门的成神之路",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
