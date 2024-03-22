@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "艾门传说"
   text: "门的成神之路"
-  tagline: My great project tagline
+  tagline: 一段普通人成神的传奇之路
   actions:
     - theme: brand
       text: 开启传奇之路
