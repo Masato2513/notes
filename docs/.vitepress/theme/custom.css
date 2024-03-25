@@ -1,0 +1,37 @@
+:root {
+    --vp-c-brand-1: #646cff;
+    --vp-c-brand-2: #747bff;
+}
+
+#app {
+    background-image: url("/image/824ad78e7395445285e085785fd03844.png");
+    background-size: 90% auto; /* 在水平方向上压缩图片至90%大小 */
+    background-position: center; /* 在水平和垂直方向上都居中 */
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.8; /* 50%的透明度 */
+}
+
+.VPSwitch.VPSwitchAppearance {
+    display: none;
+}
+article[data-v-549c013f] {
+    display: none;
+}
+
+aside {
+    background-color: rgba(255, 255, 255, 0); /* 使用 rgba() 来设置透明度为0，保持原有颜色 */
+}
+
+.Layout {
+
+}
+
+.VPNva {
+    opacity: 0; /* 50%的透明度 */
+}
+
+.VPSidebar {
+    opacity: 1; /* 50%的透明度 */
+}
