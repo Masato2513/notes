@@ -88,7 +88,7 @@ export default defineConfig({
                 items: [
                     {
                         text: '消息中间件',
-                        link: '/backend/mq/index'
+                        link: '/backend/mq/消息中间件'
                     },
                     {
                         text: 'nginx',
@@ -113,7 +113,7 @@ export default defineConfig({
                 items: [
                     {
                         text: 'mq',
-                        link: '/backend/mq/index'
+                        link: '/backend/mq/消息中间件'
                     }
                 ]
             },

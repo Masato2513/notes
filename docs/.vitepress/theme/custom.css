@@ -4,34 +4,38 @@
 }
 
 #app {
-    background-image: url("/image/824ad78e7395445285e085785fd03844.png");
+    background-image: url("/image/154022cc882311ebb6edd017c2d2eca2.jpg");
     background-size: 90% auto; /* 在水平方向上压缩图片至90%大小 */
     background-position: center; /* 在水平和垂直方向上都居中 */
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
     background-attachment: fixed;
-    opacity: 0.8; /* 50%的透明度 */
+    opacity: 1; /* 50%的透明度 */
 }
 
-/*.VPSwitch.VPSwitchAppearance {*/
-/*    display: none;*/
-/*}*/
-article[data-v-549c013f] {
+#app::before {
+    content: ""; /* 创建一个伪元素来覆盖整个元素 */
+    position: fixed; /* 将伪元素定位为固定位置，使其固定在浏览器窗口上 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0.6; /* 将伪元素放置在内容下方 */
+    background-color: rgba(255, 255, 255, 0.5); /* 白色背景，50% 透明度 */
+    pointer-events: none; /* 禁用伪元素上的点击事件 */
+}
+
+#app.dark {
+
+}
+
+a {
+    color: black;
+}
+
+.VPSwitch.VPSwitchAppearance {
     display: none;
 }
-
-aside {
-    background-color: rgba(255, 255, 255, 0); /* 使用 rgba() 来设置透明度为0，保持原有颜色 */
-}
-
-.Layout {
-
-}
-
-.VPNva {
-    opacity: 0; /* 50%的透明度 */
-}
-
-.VPSidebar {
-    opacity: 1; /* 50%的透明度 */
+article[data-v-549c013f] {
+    display: none;
 }
