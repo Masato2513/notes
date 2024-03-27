@@ -91,15 +91,15 @@ export default defineConfig({
                         link: '/backend/mq/消息中间件'
                     },
                     {
-                        text: 'nginx',
+                        text: 'Nginx',
                         link: '/backend/nginx/nginx子请求鉴权'
                     },
                     {
-                        text: 'utils',
+                        text: 'Utils',
                         link: '/backend/utils/DynamicMergeHeader'
                     },
                     {
-                        text: 'java',
+                        text: 'Java',
                         link: '/backend/java/Java-22/Java-22'
                     }
                 ]
@@ -116,13 +116,13 @@ export default defineConfig({
                 text: '消息中间件',
                 items: [
                     {
-                        text: 'mq',
+                        text: 'MQ',
                         link: '/backend/mq/消息中间件'
                     }
                 ]
             },
             {
-                text: 'nginx',
+                text: 'Nginx',
                 items: [
                     {
                         text: 'nginx子请求鉴权',
@@ -131,7 +131,7 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'utils',
+                text: 'Utils',
                 items: [
                     {
                         text: 'DynamicMergeHeader',
@@ -148,10 +148,10 @@ export default defineConfig({
                 ]
             },
             {
-                text: 'java',
+                text: 'Java',
                 items: [
                     {
-                        text: 'java22',
+                        text: 'JDK-22',
                         link: '/backend/java/Java-22/Java-22'
                     }
                 ]
