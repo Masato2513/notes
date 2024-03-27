@@ -97,6 +97,10 @@ export default defineConfig({
                     {
                         text: 'utils',
                         link: '/backend/utils/DynamicMergeHeader'
+                    },
+                    {
+                        text: 'java',
+                        link: '/backend/java/Java-22/Java-22'
                     }
                 ]
             }
@@ -140,6 +144,15 @@ export default defineConfig({
                     {
                         text: 'permissionControl',
                         link: '/backend/utils/permissionControl'
+                    }
+                ]
+            },
+            {
+                text: 'java',
+                items: [
+                    {
+                        text: 'java22',
+                        link: '/backend/java/Java-22/Java-22'
                     }
                 ]
             }
