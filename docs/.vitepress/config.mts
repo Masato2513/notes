@@ -103,7 +103,7 @@ export default defineConfig({
                         link: '/backend/java/Java-22/Java-22'
                     },
                     {
-                        text: 'Linux',
+                        text: 'Linux常用命令',
                         link: '/backend/linux/Linux常用命令'
                     }
                 ]
@@ -164,7 +164,7 @@ export default defineConfig({
                 text: 'Linux',
                 items: [
                     {
-                        text: 'Linux',
+                        text: 'Linux常用命令',
                         link: '/backend/linux/Linux常用命令'
                     }
                 ]
@@ -172,7 +172,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://www.pronhub.com'}
+            {icon: 'github', link: 'https://www.baidu.com'}
         ],
         docFooter: {
             prev: '上一篇',
