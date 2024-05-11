@@ -5,8 +5,22 @@ export default defineConfig({
     base: "/notes/",
     title: "艾门传说",
     description: "门的成神之路",
-    themeConfig: {
 
+    // lastUpdated: true,
+    themeConfig: {
+        //页脚配置
+        footer: {
+            // message: 'Released under the MIT License.',
+            copyright: '艾门传说 © 2024-present Masato'
+        },
+        //最后更新时间配置
+        lastUpdated: {
+            text: '最后更新于',
+            formatOptions: {
+                dateStyle: 'long',
+                // timeStyle: 'medium' 时分秒，这里不需要就不加了= =
+            }
+        },
         search: {
             provider: 'local',
             options: {
@@ -109,66 +123,118 @@ export default defineConfig({
                 ]
             }
         ],
+// 多侧边栏（不实用，弃置）
+        /* sidebar: {
+             '/backend/mq/消息中间件': [
+                 {
+                     text: '消息中间件',
+                     items: [
+                         {
+                             text: 'MQ',
+                             link: '/backend/mq/消息中间件'
+                         }
+                     ]
+                 }
+             ],
+             '/backend/nginx/nginx子请求鉴权': [
+                 {
+                     text: 'Nginx',
+                     items: [
+                         {
+                             text: 'nginx子请求鉴权',
+                             link: '/backend/nginx/nginx子请求鉴权'
+                         }
+                     ]
+                 }
+             ],
+             '/backend/utils/DynamicMergeHeader': [
+                 {
+                     text: 'Utils',
+                     items: [
+                         {
+                             text: 'DynamicMergeHeader',
+                             link: '/backend/utils/DynamicMergeHeader'
+                         },
+                         {
+                             text: 'exportWord',
+                             link: '/backend/utils/exportWord'
+                         },
+                         {
+                             text: 'permissionControl',
+                             link: '/backend/utils/permissionControl'
+                         }
+                     ]
+                 }
+             ]
+
+         },*/
 
         sidebar: [
             {
-                // text: 'Examples',
-                // items: [
-                //     {text: 'Markdown Examples', link: '/markdown-examples'},
-                //     {text: 'Runtime API Examples', link: '/api-examples'}
-                // ]
-                text: '消息中间件',
+                text: '后端仔相关',
+                collapsed: false,
                 items: [
                     {
-                        text: 'MQ',
-                        link: '/backend/mq/消息中间件'
-                    }
-                ]
-            },
-            {
-                text: 'Nginx',
-                items: [
-                    {
-                        text: 'nginx子请求鉴权',
-                        link: '/backend/nginx/nginx子请求鉴权'
-                    }
-                ]
-            },
-            {
-                text: 'Utils',
-                items: [
-                    {
-                        text: 'DynamicMergeHeader',
-                        link: '/backend/utils/DynamicMergeHeader'
+                        text: '消息中间件',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: 'MQ',
+                                link: '/backend/mq/消息中间件'
+                            }
+                        ]
                     },
                     {
-                        text: 'exportWord',
-                        link: '/backend/utils/exportWord'
+                        text: 'Nginx',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: 'nginx子请求鉴权',
+                                link: '/backend/nginx/nginx子请求鉴权'
+                            }
+                        ]
                     },
                     {
-                        text: 'permissionControl',
-                        link: '/backend/utils/permissionControl'
-                    }
-                ]
-            },
-            {
-                text: 'Java',
-                items: [
+                        text: 'Utils',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: 'DynamicMergeHeader',
+                                link: '/backend/utils/DynamicMergeHeader'
+                            },
+                            {
+                                text: 'exportWord',
+                                link: '/backend/utils/exportWord'
+                            },
+                            {
+                                text: 'permissionControl',
+                                link: '/backend/utils/permissionControl'
+                            }
+                        ]
+                    },
                     {
-                        text: 'JDK-22',
-                        link: '/backend/java/Java-22/Java-22'
-                    }
-                ]
-            },
-            {
-                text: 'Linux',
-                items: [
+                        text: 'Java',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: 'JDK-22',
+                                link: '/backend/java/Java-22/Java-22'
+                            }
+                        ]
+                    },
                     {
-                        text: 'Linux常用命令',
-                        link: '/backend/linux/Linux常用命令'
+                        text: 'Linux',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: 'Linux常用命令',
+                                link: '/backend/linux/Linux常用命令'
+                            }
+                        ]
                     }
                 ]
             }
+
         ],
 
         socialLinks: [
