@@ -101,6 +101,10 @@ export default defineConfig({
                     {
                         text: 'Java',
                         link: '/backend/java/Java-22/Java-22'
+                    },
+                    {
+                        text: 'Linux',
+                        link: '/backend/linux/Java-22/Linux常用命令'
                     }
                 ]
             }
@@ -153,6 +157,15 @@ export default defineConfig({
                     {
                         text: 'JDK-22',
                         link: '/backend/java/Java-22/Java-22'
+                    }
+                ]
+            },
+            {
+                text: 'Linux',
+                items: [
+                    {
+                        text: 'Linux',
+                        link: '/backend/linux/Linux常用命令'
                     }
                 ]
             }
