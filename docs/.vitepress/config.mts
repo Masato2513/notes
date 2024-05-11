@@ -104,7 +104,7 @@ export default defineConfig({
                     },
                     {
                         text: 'Linux',
-                        link: '/backend/linux/Java-22/Linux常用命令'
+                        link: '/backend/linux/Linux常用命令'
                     }
                 ]
             }
